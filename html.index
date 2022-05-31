@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="title">
+            <h1>Generate a<br><span id="green"> random password</span></h1>
+        </div>
+
+        <div id="subtitle">
+            <h2>Never use an insecure password again.</h2>
+        </div>
+        <div id="button">
+            <button id="generator" onclick="genPassword()"><img id = "img" src = "UH18sweT2DmBBFJY.png"> Generate passwords!</button>
+        </div>
+        <br>
+        <hr>
+        <div id="pws">
+            <div id="password1" class="passwords">
+                <h1><img class="icon" src="UH18p7eZob27gKzz.png"></h1>
+            </div>
+            <div id="password2" class="passwords">
+                <h1><img class="icon" src="UH18p7eZob27gKzz.png"></h1>
+            </div>
+            <div id="password3" class="passwords">
+                <h1><img class="icon" src="UH18p7eZob27gKzz.png"></h1>
+            </div>
+            <div id="password4" class="passwords">
+                <h1><img class="icon" src="UH18p7eZob27gKzz.png"></h1>
+            </div>
+        </div>
+    </div>
